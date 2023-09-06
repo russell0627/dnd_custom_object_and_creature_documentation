@@ -59,41 +59,41 @@ class ThemeService extends _$ThemeService {
   TextTheme _buildTextTheme(TextTheme base) {
     return base.copyWith(
       displayLarge: base.displayLarge!.copyWith(
-        fontFamily: 'HardGrunge',
+        fontFamily: 'MedievalSharp',
       ),
       displayMedium: base.displayMedium!.copyWith(
-        fontFamily: 'HardGrunge',
+        fontFamily: 'MedievalSharp',
       ),
       displaySmall: base.displaySmall!.copyWith(
-        fontFamily: 'HardGrunge',
+        fontFamily: 'MedievalSharp',
       ),
       headlineLarge: base.headlineLarge!.copyWith(
-        fontFamily: 'Dystopia',
+        fontFamily: 'MedievalSharp',
       ),
       headlineMedium: base.headlineMedium!.copyWith(
-        fontFamily: 'Dystopia',
+        fontFamily: 'MedievalSharp',
       ),
       headlineSmall: base.headlineSmall!.copyWith(
-        fontFamily: 'Dystopia',
+        fontFamily: 'MedievalSharp',
       ),
       titleLarge: base.titleLarge!.copyWith(
-        fontFamily: 'Technic',
+        fontFamily: 'MedievalSharp',
       ),
       // TextField default
       titleMedium: base.titleMedium!.copyWith(
-        fontFamily: 'Technic',
+        fontFamily: 'MedievalSharp',
       ),
       titleSmall: base.titleSmall!.copyWith(
-        fontFamily: 'Technic',
+        fontFamily: 'MedievalSharp',
       ),
       bodyLarge: base.bodyLarge!.copyWith(
-        fontFamily: 'Technic',
+        fontFamily: 'MedievalSharp',
       ),
       bodyMedium: base.bodyMedium!.copyWith(
-        fontFamily: 'Technic',
+        fontFamily: 'MedievalSharp',
       ),
       bodySmall: base.bodySmall!.copyWith(
-        fontFamily: 'Technic',
+        fontFamily: 'MedievalSharp',
       ),
     );
   }

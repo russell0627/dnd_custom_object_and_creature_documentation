@@ -1,3 +1,5 @@
+import 'package:recase/recase.dart';
+
 class Item {
   final String name;
   final String description;
@@ -19,7 +21,7 @@ class DamageSet {
   DamageSet({required this.dieType, required this.damageType, required this.dieQuantity});
 
   @override
-  String toString() => "${dieType}$dieQuantity $damageType";
+  String toString() => "$dieQuantity${dieType.name} ${damageType.name.titleCase}";
 }
 
 enum DieType {
